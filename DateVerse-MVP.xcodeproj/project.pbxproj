@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D07472DC2EF1BFA8002A10C7 /* DateVerseShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D07472D22EF1BFA8002A10C7 /* DateVerseShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D07472B22EF1BB6C002A10C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,13 +25,45 @@
 			remoteGlobalIDString = D07472A32EF1BB6B002A10C7;
 			remoteInfo = "DateVerse-MVP";
 		};
+		D07472DA2EF1BFA8002A10C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D074729C2EF1BB6B002A10C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D07472D12EF1BFA8002A10C7;
+			remoteInfo = DateVerseShare;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D07472E12EF1BFA8002A10C7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D07472DC2EF1BFA8002A10C7 /* DateVerseShare.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D07472A42EF1BB6B002A10C7 /* DateVerse-MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DateVerse-MVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07472B12EF1BB6C002A10C7 /* DateVerse-MVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DateVerse-MVPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07472BB2EF1BB6C002A10C7 /* DateVerse-MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DateVerse-MVPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07472D22EF1BFA8002A10C7 /* DateVerseShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DateVerseShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D07472DD2EF1BFA8002A10C7 /* Exceptions for "DateVerseShare" folder in "DateVerseShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D07472D12EF1BFA8002A10C7 /* DateVerseShare */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D07472A62EF1BB6B002A10C7 /* DateVerse-MVP */ = {
@@ -43,6 +79,14 @@
 		D07472BE2EF1BB6C002A10C7 /* DateVerse-MVPUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "DateVerse-MVPUITests";
+			sourceTree = "<group>";
+		};
+		D07472D32EF1BFA8002A10C7 /* DateVerseShare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D07472DD2EF1BFA8002A10C7 /* Exceptions for "DateVerseShare" folder in "DateVerseShare" target */,
+			);
+			path = DateVerseShare;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +113,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D07472CF2EF1BFA8002A10C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +129,7 @@
 				D07472A62EF1BB6B002A10C7 /* DateVerse-MVP */,
 				D07472B42EF1BB6C002A10C7 /* DateVerse-MVPTests */,
 				D07472BE2EF1BB6C002A10C7 /* DateVerse-MVPUITests */,
+				D07472D32EF1BFA8002A10C7 /* DateVerseShare */,
 				D07472A52EF1BB6B002A10C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +140,7 @@
 				D07472A42EF1BB6B002A10C7 /* DateVerse-MVP.app */,
 				D07472B12EF1BB6C002A10C7 /* DateVerse-MVPTests.xctest */,
 				D07472BB2EF1BB6C002A10C7 /* DateVerse-MVPUITests.xctest */,
+				D07472D22EF1BFA8002A10C7 /* DateVerseShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +155,12 @@
 				D07472A02EF1BB6B002A10C7 /* Sources */,
 				D07472A12EF1BB6B002A10C7 /* Frameworks */,
 				D07472A22EF1BB6B002A10C7 /* Resources */,
+				D07472E12EF1BFA8002A10C7 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D07472DB2EF1BFA8002A10C7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				D07472A62EF1BB6B002A10C7 /* DateVerse-MVP */,
@@ -163,6 +218,28 @@
 			productReference = D07472BB2EF1BB6C002A10C7 /* DateVerse-MVPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D07472D12EF1BFA8002A10C7 /* DateVerseShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07472DE2EF1BFA8002A10C7 /* Build configuration list for PBXNativeTarget "DateVerseShare" */;
+			buildPhases = (
+				D07472CE2EF1BFA8002A10C7 /* Sources */,
+				D07472CF2EF1BFA8002A10C7 /* Frameworks */,
+				D07472D02EF1BFA8002A10C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D07472D32EF1BFA8002A10C7 /* DateVerseShare */,
+			);
+			name = DateVerseShare;
+			packageProductDependencies = (
+			);
+			productName = DateVerseShare;
+			productReference = D07472D22EF1BFA8002A10C7 /* DateVerseShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +261,9 @@
 						CreatedOnToolsVersion = 26.1;
 						TestTargetID = D07472A32EF1BB6B002A10C7;
 					};
+					D07472D12EF1BFA8002A10C7 = {
+						CreatedOnToolsVersion = 26.1;
+					};
 				};
 			};
 			buildConfigurationList = D074729F2EF1BB6B002A10C7 /* Build configuration list for PBXProject "DateVerse-MVP" */;
@@ -203,6 +283,7 @@
 				D07472A32EF1BB6B002A10C7 /* DateVerse-MVP */,
 				D07472B02EF1BB6C002A10C7 /* DateVerse-MVPTests */,
 				D07472BA2EF1BB6C002A10C7 /* DateVerse-MVPUITests */,
+				D07472D12EF1BFA8002A10C7 /* DateVerseShare */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +304,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D07472B92EF1BB6C002A10C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07472D02EF1BFA8002A10C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +341,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D07472CE2EF1BFA8002A10C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +360,11 @@
 			isa = PBXTargetDependency;
 			target = D07472A32EF1BB6B002A10C7 /* DateVerse-MVP */;
 			targetProxy = D07472BC2EF1BB6C002A10C7 /* PBXContainerItemProxy */;
+		};
+		D07472DB2EF1BFA8002A10C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D07472D12EF1BFA8002A10C7 /* DateVerseShare */;
+			targetProxy = D07472DA2EF1BFA8002A10C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,8 +493,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DateVerse-MVP/DateVerse-MVP.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YGLWU7828;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,8 +526,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DateVerse-MVP/DateVerse-MVP.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YGLWU7828;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -530,6 +634,64 @@
 			};
 			name = Release;
 		};
+		D07472DF2EF1BFA8002A10C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DateVerseShare/DateVerseShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YGLWU7828;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DateVerseShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DateVerseShare;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steven.studio.DateVerse-MVP.DateVerseShare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D07472E02EF1BFA8002A10C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DateVerseShare/DateVerseShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YGLWU7828;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DateVerseShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DateVerseShare;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steven.studio.DateVerse-MVP.DateVerseShare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,6 +727,15 @@
 			buildConfigurations = (
 				D07472CC2EF1BB6C002A10C7 /* Debug */,
 				D07472CD2EF1BB6C002A10C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07472DE2EF1BFA8002A10C7 /* Build configuration list for PBXNativeTarget "DateVerseShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07472DF2EF1BFA8002A10C7 /* Debug */,
+				D07472E02EF1BFA8002A10C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
